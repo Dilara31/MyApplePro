@@ -1,6 +1,9 @@
 html {
     font-family: 'Open Sans', sans-serif;
 }
+body {
+    max-width: 1680px;
+}
 
 .top {
     display: flex;
@@ -140,11 +143,23 @@ ul > li > address {
     display: flex;
     align-items: stretch;
 }
+
 .subscribe {
-    
+    padding: 40px;
+    background: #0011;
 }
 
 .subscribe-wrapper {
-
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+    gap: 10px;
+    background: white;
+    padding: 40px;
+    line-height: 10px;
 }
-    
+
+.subscribe-wrapper > input {
+    flex-basis: 60%;
+}
